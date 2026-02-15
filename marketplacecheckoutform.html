@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title>
+            HTML Marketplace Checkout Form
+        </title>
+    
+    </head>
+    
+    
+    <body>
+        
+        <form>
+        
+            <label for="address"><strong>Address: </strong></label>
+            <input type="text" name="address" id="address" placeholder="Address" size="30px" maxlength="100">
+            
+            <br/>
+            <br/>
+            
+            <label for="postcode"><strong>Postcode: </strong></label>
+            <input type="text" name="postcode" id="postcode" placeholder="Postcode" size="30px" maxlength="100">
+                        
+            <br/>
+            <br/>
+            
+            <label for="city"><strong>City: </strong></label>
+            <input type="text" name="city" id="city" placeholder="City" size="30px" maxlength="100">
+            
+            <p><strong>Choose Your Shipping Method:</strong></p>
+            <select name="delivery" id="delivery">
+                
+                <option value="Free Delivery">Free Delivery</option>
+                <option value="Slow Delivery">Slow Delivery</option>
+                <option value="Express Delivery">Express Delivery</option>
+                
+            </select>
+            
+            <p><strong>Choose Your Payment Method:</strong></p>
+            
+            <label><input type="radio" name="payment" value="cash on delivery" checked="checked">Cash on Delivery</label>
+            <label><input type="radio" name="payment" value="bkash">Bkash</label>
+            <label><input type="radio" name="payment" value="card">Card</label>
+            <label><input type="radio" name="payment" value="internet banking">Internet Banking</label>
+            
+            <br/>
+            <br/>
+            
+            <label for="comments"><strong>Comments: </strong></label>
+            <sub><textarea rows="4" cols="40" name="comments" id="comments"></textarea></sub>
+            
+            <br/>
+            <br/>
+            
+            <label>Sign Me Up for Email Update<input type="checkbox" name="email update"></label>
+            
+            <br/>
+            <br/>
+            
+            <label>Securly Save My Payment Method<input type="checkbox" name="payment Update"></label>
+            
+            <br/>
+            <br/>
+            
+            <input type="submit" value="Checkout">
+        
+        </form>
+    
+    </body>
+
+
+
+
+</html>
